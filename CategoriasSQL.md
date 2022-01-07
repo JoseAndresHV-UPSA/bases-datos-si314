@@ -1,11 +1,13 @@
 # Categorías de Comandos SQL (Structured Query Language)
 ### 1. DDL (Data Definition Language)
-`CREATE`: Para crear bases de datos o sus objetos.</br>
-`DROP`: Para eliminar bases de datos o sus objetos.</br>
-`ALTER`: Para alterar la estructura de tablas.</br>
-`TRUNCATE`: Para eliminar todos los registros de una tabla.</br>
-`COMMENT`: Para agregar comentarios.</br>
-`RENAME`: Para renombrar objetos existentes.</br>
+| Comando | Descripción |
+| --- | --- |
+| `CREATE`| Para crear bases de datos o sus objetos |
+| `DROP`| Para eliminar bases de datos o sus objetos |
+| `ALTER`| Para alterar la estructura de tablas |
+| `TRUNCATE`| Para eliminar todos los registros de una tabla |
+| `COMMENT`| Para agregar comentarios |
+| `RENAME`| Para renombrar objetos existentes |
 
 ### 2. DQL (Data Query Language)
 `SELECT`: Para recuperar datos.</br>
