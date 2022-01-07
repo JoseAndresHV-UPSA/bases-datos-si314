@@ -10,22 +10,30 @@
 | `RENAME`| Para renombrar objetos existentes |
 
 ### 2. DQL (Data Query Language)
-`SELECT`: Para recuperar datos.</br>
+| Comando | Descripción |
+| --- | --- |
+| `SELECT`| Para recuperar datos |
 
 ### 3. DML (Data Manipulation Language)
-`INSERT`: Para insertar datos en una tabla.</br>
-`UPDATE`: Para actualizar datos de una tabla.</br>
-`DELETE`: Para eliminar registros de una tabla.</br>
+| Comando | Descripción |
+| --- | --- |
+| `INSERT`| Para insertar datos en una tabla |
+| `UPDATE`| Para actualizar datos de una tabla |
+| `DELETE`| Para eliminar registros de una tabla |
 
 ### 4. DCL (Data Control Language)
-`GRANT`: Para dar permisos de acceso a un usuario.</br>
-`REVOKE`: Para quitar permisos de acceso a un usuario.</br>
+| Comando | Descripción |
+| --- | --- |
+| `GRANT`| Para dar permisos de acceso a un usuario |
+| `REVOKE`| Para quitar permisos de acceso a un usuario |
 
 ### 5. TCL (Transaction Control Language)
-`COMMIT`: Para registrar una transacción.</br>
-`ROLLBACK`: Para revertir la última transacción.</br>
-`SAVEPOINT`: Para puntos de guardado en una transacción.</br>
-`SET TRANSACTION`: Para configurar características una transacción.</br>
+| Comando | Descripción |
+| --- | --- |
+| `COMMIT`| Para registrar una transacción |
+| `ROLLBACK`| Para revertir la última transacción |
+| `SAVEPOINT`| Para puntos de guardado en una transacción |
+| `SET TRANSACTION`| Para configurar características una transacción |
 
 #### Referencias
 - [SQL | DDL, DQL, DML, DCL and TCL Commands](https://www.geeksforgeeks.org/sql-ddl-dql-dml-dcl-tcl-commands/)
