@@ -7,7 +7,7 @@
 `COMMENT`: Para agregar comentarios.</br>
 `RENAME`: Para renombrar objetos existentes.</br>
 
-### 2. DQl (Data Query Language)
+### 2. DQL (Data Query Language)
 `SELECT`: Para recuperar datos.</br>
 
 ### 3. DML (Data Manipulation Language)
