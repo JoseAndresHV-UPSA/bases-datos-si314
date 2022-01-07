@@ -1,5 +1,5 @@
 # Diagramas ER (Entidad-Relación) 
-> Un modelo entidad-relación es una herramienta para el modelo de datos, la cual facilita la representación de entidades de una base de datos. ~ Peter Chen
+> Un modelo entidad-relación es una herramienta para el modelo de datos, la cual facilita la representación de entidades de una base de datos. ~Peter Chen
 
 ## Notación Chen
 ### Simbología
