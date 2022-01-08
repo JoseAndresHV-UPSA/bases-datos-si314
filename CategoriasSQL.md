@@ -7,7 +7,6 @@
 | `ALTER`| Para alterar la estructura de tablas |
 | `TRUNCATE`| Para eliminar todos los registros de una tabla |
 | `COMMENT`| Para agregar comentarios |
-| `RENAME`| Para renombrar objetos existentes |
 
 ### 2. DQL (Data Query Language)
 | Comando | Descripción |
