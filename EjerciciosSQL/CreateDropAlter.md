@@ -73,5 +73,5 @@ ALTER COLUMN Autor TEXT;
 Para eliminar la columna `Autor` de la tabla `Libro`:
 ``` SQL
 ALTER TABLE Libro
-DROP COLUMN;
+DROP COLUMN Autor;
 ```
