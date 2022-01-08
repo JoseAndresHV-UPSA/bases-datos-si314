@@ -1,7 +1,7 @@
 # CREATE, DROP, ALTER
 
 ### CREATE
-Para crear una Base de Datos llamada `Biblioteca`:
+Para crear una Base de Datos `Biblioteca`:
 ``` SQL
 CREATE DATABASE Biblioteca
 ```
@@ -9,7 +9,7 @@ Para seleccionar la Base de Datos en la que vamos a trabajar:
 ``` SQL
 USE Biblioteca
 ```
-Para crear un tabla llamada `Libro` con los sus respectivos atributos:
+Para crear una tabla `Libro` con sus respectivos atributos:
 ``` SQL
 CREATE TABLE Libros
 (
@@ -49,14 +49,29 @@ CREATE TABLE Libros
 ##### Más información: [SQL Constraints](https://www.w3schools.com/sql/sql_constraints.asp)
 
 ### DROP
-Para eliminar la Base de Datos llamada `Biblioteca`:
+Para eliminar la Base de Datos `Biblioteca`:
 ``` SQL
 USE master
 DROP DATABASE Biblioteca
 ```
 Para eliminar la tabla `Libro`:
 ``` SQL
-DROP TABLE Libros
+DROP TABLE Libro
 ```
 
 ### ALTER
+Para agregar una columna `Autor` en la tabla `Libro`:
+``` SQL
+ALTER TABLE Libro
+ADD Autor VARCHAR(40) NOT NULL
+```
+Para modificar la columna `Autor` de la tabla `Libro`:
+``` SQL
+ALTER TABLE Libro
+ALTER COLUMN Autor TEXT
+```
+Para eliminar la columna `Autor` de la tabla `Libro`:
+``` SQL
+ALTER TABLE Libro
+DROP COLUMN
+```
