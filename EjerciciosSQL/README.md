@@ -1,3 +1,0 @@
-# Ejercicios SQL
-
-### Contenido
