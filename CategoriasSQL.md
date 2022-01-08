@@ -11,7 +11,7 @@
 ### 2. DQL (Data Query Language)
 | Comando | Descripción |
 | --- | --- |
-| `SELECT`| Para recuperar datos |
+| `SELECT`| Para consultar datos |
 
 ### 3. DML (Data Manipulation Language)
 | Comando | Descripción |
