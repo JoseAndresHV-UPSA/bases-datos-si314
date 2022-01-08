@@ -13,12 +13,12 @@ Para crear una tabla `Libro` con sus respectivos atributos:
 ``` SQL
 CREATE TABLE Libros
 (
-	IdLibro CHAR(10) NOT NULL,
+	IdLibro VARCHAR(10) NOT NULL,
 	Titulo VARCHAR(40) NOT NULL,
 	SubTitulo VARCHAR(40),
 	Editorial VARCHAR(40) NOT NULL,
 	Area VARCHAR(30) NOT NULL,
-	AnioPublicacion CHAR(10) NOT NULL,
+	AnioPublicacion CHAR(4) NOT NULL,
 	TotalPaginas INT NOT NULL,
 	Edicion VARCHAR(10) NOT NULL,
   
