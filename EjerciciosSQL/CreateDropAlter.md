@@ -36,3 +36,16 @@ CREATE TABLE Libros
 | `CHAR(N)`| Para texto con caracteres fijos |
 | `VARCHAR(N)`| Para texto con caracteres dinámicos |
 ##### Más información: [Data Types](https://docs.microsoft.com/en-us/sql/t-sql/data-types/data-types-transact-sql?view=sql-server-ver15)
+
+#### Sobre Restricciones (Constraints)
+| Restricción | Descripción |
+| --- | --- |
+| `NOT NULL`| Para que no acepte valores vacios o NULL |
+| `UNIQUE`| Para que solo acepte valores únicos |
+| `PRIMARY KEY`| Para que sea el identificador único de cada fila |
+| `FOREIGN KEY`| Para hacer referencia al identificador de otra tabla |
+| `CHECK`| Para asegurar que un valor cumpla una condición |
+| `DEFAULT`| Para establecer un valor predeterminado de un valor |
+##### Más información: [SQL Constraints](https://www.w3schools.com/sql/sql_constraints.asp)
+
+### DROP
