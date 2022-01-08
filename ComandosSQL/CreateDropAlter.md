@@ -36,7 +36,6 @@ CREATE TABLE Libro
 | `CHAR(N)`| Para texto con caracteres fijos |
 | `VARCHAR(N)`| Para texto con caracteres dinámicos |
 ##### Más información: [Data Types](https://docs.microsoft.com/en-us/sql/t-sql/data-types/data-types-transact-sql?view=sql-server-ver15)
-
 #### Sobre Restricciones (Constraints)
 | Restricción | Descripción |
 | --- | --- |
