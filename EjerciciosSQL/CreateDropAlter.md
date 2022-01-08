@@ -49,3 +49,14 @@ CREATE TABLE Libros
 ##### Más información: [SQL Constraints](https://www.w3schools.com/sql/sql_constraints.asp)
 
 ### DROP
+Para eliminar la Base de Datos llamada `Biblioteca`:
+``` SQL
+USE master
+DROP DATABASE Biblioteca
+```
+Para eliminar la tabla `Libro`:
+``` SQL
+DROP TABLE Libros
+```
+
+### ALTER
