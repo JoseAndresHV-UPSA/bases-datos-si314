@@ -1,4 +1,4 @@
-# INSERT, UPDATE, DELETE
+# INSERT, UPDATE, DELETE, TRUNCATE
 
 ### INSERT
 Para insertar datos en la tabla `Libro`:
