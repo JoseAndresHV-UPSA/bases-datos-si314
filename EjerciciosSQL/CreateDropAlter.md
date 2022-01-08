@@ -3,11 +3,11 @@
 ### CREATE
 Para crear una Base de Datos `Biblioteca`:
 ``` SQL
-CREATE DATABASE Biblioteca
+CREATE DATABASE Biblioteca;
 ```
 Para seleccionar la Base de Datos en la que vamos a trabajar:
 ``` SQL
-USE Biblioteca
+USE Biblioteca;
 ```
 Para crear una tabla `Libro` con sus respectivos atributos:
 ``` SQL
@@ -23,7 +23,7 @@ CREATE TABLE Libro
 	Edicion VARCHAR(10) NOT NULL,
   
 	CONSTRAINT PKLibro PRIMARY KEY(IdLibro)
-)
+);
 ```
 #### Sobre los Tipos de datos 
 | Tipo de dato | Descripción |
@@ -51,27 +51,27 @@ CREATE TABLE Libro
 ### DROP
 Para eliminar la Base de Datos `Biblioteca`:
 ``` SQL
-USE master
-DROP DATABASE Biblioteca
+USE master;
+DROP DATABASE Biblioteca;
 ```
 Para eliminar la tabla `Libro`:
 ``` SQL
-DROP TABLE Libro
+DROP TABLE Libro;
 ```
 
 ### ALTER
 Para agregar una columna `Autor` en la tabla `Libro`:
 ``` SQL
 ALTER TABLE Libro
-ADD Autor VARCHAR(40) NOT NULL
+ADD Autor VARCHAR(40) NOT NULL;
 ```
 Para modificar la columna `Autor` de la tabla `Libro`:
 ``` SQL
 ALTER TABLE Libro
-ALTER COLUMN Autor TEXT
+ALTER COLUMN Autor TEXT;
 ```
 Para eliminar la columna `Autor` de la tabla `Libro`:
 ``` SQL
 ALTER TABLE Libro
-DROP COLUMN
+DROP COLUMN;
 ```
