@@ -11,7 +11,7 @@ USE Biblioteca
 ```
 Para crear una tabla `Libro` con sus respectivos atributos:
 ``` SQL
-CREATE TABLE Libros
+CREATE TABLE Libro
 (
 	IdLibro VARCHAR(10) NOT NULL,
 	Titulo VARCHAR(40) NOT NULL,
