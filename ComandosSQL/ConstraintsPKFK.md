@@ -1,7 +1,7 @@
 # CONSTRAINTS
 
 ### PRIMARY KEY
-Para establecer la llave primaria `IdAutor` en la tabla `Autor`
+Para establecer la llave primaria `IdAutor` en la tabla `Autor`:
 ``` SQL
 CREATE TABLE Autor
 (
@@ -24,7 +24,7 @@ ADD CONSTRAINT PKAutor PRIMARY KEY (IdAutor);
 ```
 
 ### FOREIGN KEY
-Para establecer las llaves foráneas `IdAutor` e `IdLibro` en la tabla `Autoria`
+Para establecer las llaves foráneas `IdAutor` e `IdLibro` en la tabla `Autoria`:
 ``` SQL
 CREATE TABLE Autoria
 (
