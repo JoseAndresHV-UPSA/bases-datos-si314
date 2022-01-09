@@ -3,5 +3,5 @@
 ### Contenido
 - [Diagramas ER (Entidad-Relación)](https://github.com/JoseAndresHV-UPSA/bases-datos-si314/blob/master/DiagramasER.md)
 - [Categorías de Comandos SQL](https://github.com/JoseAndresHV-UPSA/bases-datos-si314/blob/master/CategoriasSQL.md)
-- [Ejercicios SQL]()
+- [Comandos y Ejercicios SQL](https://github.com/JoseAndresHV-UPSA/bases-datos-si314/tree/master/ComandosSQL)
 - [Libros]()
