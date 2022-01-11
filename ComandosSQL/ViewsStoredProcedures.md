@@ -53,7 +53,7 @@ EXEC CantidadLibros
 SELECT @Cant AS CantLibros; 
 ```
 Para modificar el anterior y que retorne la cantidad:
-```
+``` SQL
 ALTER PROCEDURE CantidadLibros
 AS
 DECLARE @Count AS INT;
