@@ -158,3 +158,4 @@ CASE
 END AS TextoEdad
 From Estudiante;
 ```
+##### Más información: [SQL Server Functions](https://www.w3schools.com/sql/sql_ref_sqlserver.asp)
