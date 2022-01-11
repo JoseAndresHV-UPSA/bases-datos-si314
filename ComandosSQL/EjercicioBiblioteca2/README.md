@@ -4,7 +4,7 @@
 SELECT * FROM Libro
 ORDER BY Titulo, AnioPublicacion;
 ```
-2. Generar un listado de los autores registrados, y los libros de los que son autores, ordenados por área, autor y añoo de publicación.</br>
+2. Generar un listado de los autores registrados, y los libros de los que son autores, ordenados por área, autor y año de publicación.</br>
 ``` SQL 
 SELECT Autor.Nombre, Libro.Titulo, Libro.Area, Libro.AnioPublicacion 
 FROM Autoria
