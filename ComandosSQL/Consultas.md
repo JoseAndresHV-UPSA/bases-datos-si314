@@ -44,3 +44,52 @@ Para obtener los registros de la tabla `Estudiante` donde `Carrera` tenga los va
 SELECT * FROM Estudiante
 WHERE Carrera IN('Sistemas', 'Industrial');
 ```
+
+### ORDER BY
+Para obtener los registros de la tabla `Estudiante` ordenados por `Nombre` ascendentemente:
+``` SQL 
+SELECT * FROM Estudiante
+ORDER BY Nombre ASC;
+```
+Para obtener los registros de la tabla `Estudiante` ordenados por `Nombre` descendentemente:
+``` SQL 
+SELECT * FROM Estudiante
+ORDER BY Nombre DESC;
+```
+
+### TOP
+Para obtener primeros 3 registros de la tabla `Libro`:
+``` SQL 
+SELECT TOP 3 *
+FROM Libro;
+```
+
+### MIN, MAX
+Para el mínimo valor de `Edad` en los registros de `Estudiante`:
+``` SQL 
+SELECT MIN(Edad) AS MenorEdad
+FROM Estudiante;
+```
+Para el máximo valor de `Edad` en los registros de `Estudiante`:
+``` SQL 
+SELECT MAX(Edad) AS MenorEdad
+FROM Estudiante;
+```
+
+### COUNT, AVG, SUM
+Para el contar cuantos registros de `Estudiante` existen:
+``` SQL 
+SELECT COUNT(*) AS Cantidad
+FROM Estudiante;
+```
+Para el calcular el promedio de la `Edad` de los registros de `Estudiante`:
+``` SQL 
+SELECT AVG(Edad) AS EdadPromedio
+FROM Estudiante;
+```
+Para el sumar la `Edad` de todos los registros de `Estudiante`:
+``` SQL 
+SELECT SUM(Edad) AS SumaEdad
+FROM Estudiante;
+```
+
