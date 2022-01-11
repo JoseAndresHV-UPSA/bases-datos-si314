@@ -22,6 +22,7 @@ WHERE FechaDevolucion is NULL;
 ```
 4. Listar los préstamos que hayan incurrido en retrasos en la devolución de libros, y los estudiantes a los que corresponden, 
 tanto en prestamos que ya se haya devuelto, como en prestamos aún pendientes de devolución.</br>
+
 Opción 1:</br>
 ``` SQL
 SELECT Libro.Titulo, Estudiante.Nombre, FechaDebeDevolver, FechaDevolucion
