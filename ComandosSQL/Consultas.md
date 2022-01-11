@@ -93,3 +93,68 @@ SELECT SUM(Edad) AS SumaEdad
 FROM Estudiante;
 ```
 
+### INNER JOIN, UNION
+Para obtener el `Nombre` y `FechaPrestamo` de los registros que tengan igual `NroRegistro` de las tablas `Estudiante` y `Prestamo`:
+``` SQL 
+SELECT Estudiante.Nombre, Prestamo.FechaPrestamo
+FROM Estudiante
+INNER JOIN Prestamo
+	ON Estudiante.NroRegistro = Prestamo.NroRegistro;
+```
+Para obtener el `Nombre` de los registros de `Autor` y `Estudiante` combinados:
+``` SQL 
+SELECT Nombre FROM Autor
+UNION
+SELECT Nombre FROM Estudiante;
+```
+
+### GROUP BY
+Para agrupar los registros de `Estudiante` por `Carrera` y contarlos:
+``` SQL
+SELECT COUNT(*), Carrera 
+FROM Estudiante
+GROUP BY Carrera;
+```
+
+### HAVING 
+Para agrupar los registros de `Estudiante` por `Carrera` y contarlos, mostrando los que tienen mas de un registro:
+``` SQL
+SELECT COUNT(*), Carrera 
+FROM Estudiante
+GROUP BY Carrera
+HAVING COUNT(*) > 1;
+```
+
+### EXISTS, ANY
+Para obtener el `Nombre` de `Estudiante` (que existan) que realizaron un `Prestamo` y devolvieron el debido dia:
+``` SQL
+SELECT Nombre
+FROM Estudiante
+WHERE EXISTS (
+	SELECT * FROM Prestamo
+	WHERE Prestamo.NroRegistro = Estudiante.NroRegistro
+		AND Prestamo.FechaDebeDevolver = Prestamo.FechaDevolucion
+);
+```
+Para obtener el `Nombre` de `Estudiante` (si existe alguno) que realizaron un `Prestamo` y devolvieron el debido dia:
+``` SQL
+SELECT Nombre
+FROM Estudiante
+WHERE NroRegistro = ANY (
+	SELECT NroRegistro FROM Prestamo
+	WHERE Prestamo.NroRegistro = Estudiante.NroRegistro
+		AND Prestamo.FechaDebeDevolver = Prestamo.FechaDevolucion
+);
+```
+
+### CASE
+Para obtener un mensaje de `Edad` para `Estudiante` según el caso:
+``` SQL
+SELECT Nombre, Edad,
+CASE
+	WHEN Edad = 20 THEN 'Tiene 20'
+	WHEN Edad = 21 THEN 'Tiene 21'
+	ELSE 'No tiene 20 ni 21'
+END AS TextoEdad
+From Estudiante;
+```
